@@ -21,7 +21,9 @@
       <ul
         class="flex justify-end gap-10 font-['Merriweather'] text-lg font-bold"
       >
-        <li><a href="#">About</a></li>
+        <li>
+          <a href="#" onclick="alert('Make With Love By Ramana')">About</a>
+        </li>
         <li><a href="#">GitHub</a></li>
       </ul>
       <div class="flex flex-col items-center gap-5">
@@ -34,33 +36,40 @@
           <input
             type="text"
             placeholder="Enter Vehicle Number"
-            class="px-8 py-4 rounded-lg placeholder:text-end"
+            class="px-8 py-4 rounded-lg uppercase tracking-wider placeholder:text-end placeholder:normal-case"
           />
         </form>
       </div>
     </div>
     <main class="bg-white m-12 shadow px-5 py-10 space-y-4">
-      <p>Your Query: <span>TN12</span></p>
-      <table class="">
+      <div class="flex justify-between items-center">
+        <p>Your Query: <span>TN12</span></p>
+        <button class="bg-blue-400 px-3 py-2 rounded-lg text-white reset">
+          reset
+        </button>
+      </div>
+      <table class="w-full text-sm">
         <tr>
-          <th class="border border-slate-400 w-">ID</th>
-          <td class="border border-slate-400">12</td>
+          <th class="border border-slate-400 p-2">ID</th>
+          <td class="border border-slate-400 p-2">1</td>
         </tr>
         <tr>
-          <th class="border border-slate-400">Code</th>
-          <td class="border border-slate-400">12</td>
+          <th class="border border-slate-400 p-2">Code</th>
+          <td class="border border-slate-400 p-2">TN-01</td>
         </tr>
         <tr>
-          <th class="border border-slate-400">Location</th>
-          <td class="border border-slate-400">12</td>
+          <th class="border border-slate-400 p-2">Location</th>
+          <td class="border border-slate-400 p-2">
+            Chennai(Central):Ayanavaram
+          </td>
         </tr>
         <tr>
-          <th class="border border-slate-400">Type</th>
-          <td class="border border-slate-400">12</td>
+          <th class="border border-slate-400 p-2">Type</th>
+          <td class="border border-slate-400 p-2">RTO</td>
         </tr>
         <tr>
-          <th class="border border-slate-400">District</th>
-          <td class="border border-slate-400">12</td>
+          <th class="border border-slate-400 p-2">District</th>
+          <td class="border border-slate-400 p-2">Chennai</td>
         </tr>
       </table>
     </main>
