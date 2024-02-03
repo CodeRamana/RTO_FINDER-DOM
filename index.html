@@ -4,10 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RTO FINDER</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <h1>RTO Finder</h1>
+    <div class="bg-sky-400 h-60 px-10 py-5 space-y-5">
+      <ul
+        class="flex justify-end gap-10 font-['Merriweather'] text-lg font-bold"
+      >
+        <li><a href="#">About</a></li>
+        <li><a href="#">GitHub</a></li>
+      </ul>
+      <div class="flex flex-col items-center gap-5">
+        <h1 class="font-['Merriweather'] font-bold text-2xl">RTO FINDER</h1>
+        <form action="" class="font-['Merriweather'] text-sm">
+          <input
+            type="text"
+            placeholder="Enter Vehicle Number"
+            class="px-6 py-4 rounded-lg"
+          />
+        </form>
+      </div>
+    </div>
 
-    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>
