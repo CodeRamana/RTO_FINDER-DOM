@@ -35,15 +35,16 @@
           <span class="material-symbols-outlined absolute px-2"> search </span>
           <input
             type="text"
+            id="input-field"
             placeholder="Enter Vehicle Number"
             class="px-8 py-4 rounded-lg uppercase tracking-wider placeholder:text-end placeholder:normal-case"
           />
         </form>
       </div>
     </div>
-    <main class="bg-white m-12 shadow px-5 py-10 space-y-4">
+    <main class="bg-white m-12 shadow px-5 py-10 space-y-4 hidden">
       <div class="flex justify-between items-center">
-        <p>Your Query: <span>TN12</span></p>
+        <p>Your Query: <span class="font-bold" id="span"></span></p>
         <button class="bg-blue-400 px-3 py-2 rounded-lg text-white reset">
           reset
         </button>
@@ -51,25 +52,23 @@
       <table class="w-full text-sm">
         <tr>
           <th class="border border-slate-400 p-2">ID</th>
-          <td class="border border-slate-400 p-2">1</td>
+          <td class="border border-slate-400 p-2" id="id"></td>
         </tr>
         <tr>
           <th class="border border-slate-400 p-2">Code</th>
-          <td class="border border-slate-400 p-2">TN-01</td>
+          <td class="border border-slate-400 p-2" id="code"></td>
         </tr>
         <tr>
           <th class="border border-slate-400 p-2">Location</th>
-          <td class="border border-slate-400 p-2">
-            Chennai(Central):Ayanavaram
-          </td>
+          <td class="border border-slate-400 p-2" id="location"></td>
         </tr>
         <tr>
           <th class="border border-slate-400 p-2">Type</th>
-          <td class="border border-slate-400 p-2">RTO</td>
+          <td class="border border-slate-400 p-2" id="type"></td>
         </tr>
         <tr>
           <th class="border border-slate-400 p-2">District</th>
-          <td class="border border-slate-400 p-2">Chennai</td>
+          <td class="border border-slate-400 p-2" id="district"></td>
         </tr>
       </table>
     </main>
